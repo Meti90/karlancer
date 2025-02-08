@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" dir="rtl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css-taliwind.css">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f4;
+        }
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+        }
+        .social-icons svg {
+            width: 100%;
+            height: 100%;
+            fill: #a9a8a9;
+            transition: fill 0.3s ease;
+        }
+        .social-icons a:hover svg {
+            fill: black;
+        }
+    </style>
+</head>
+
+<body class="w-full h-full flex justify-center items-center font-sans">
+    <!-- <div class="container w-1/4 h-auto border-2 border-gray-100 rounded-md p-4">
+        <span class="block text-right text-2xl font-bold mt-2">عضویت</span>
+        <span class="block text-right p-3 mt-2">نام کاربری</span>
+        <input type="text" class="w-full h-10 border-2 border-gray-100 rounded hover:border-purple">
+        <span class="block text-right p-3 mt-4">آدرس ایمیل </span>
+        <input type="text" class="w-full h-10 border-2 border-gray-100 rounded">
+        <span class="block text-right p-3 mt-4">آدرس ایمیل </span>
+        <input type="text" class="w-full h-10 border-2 border-gray-100 rounded">
+        <span class="block text-right text-gray-400 text-sm mt-4">با ثبت نام شما یعنی قوانین سایت را پذیرفته اید</span>
+        <div class="w-full h-12 mt-8 bg-purple-600 rounded-md text-white flex justify-center items-center cursor-pointer hover:bg-purple-500 transition">
+            <span>ورود به اکانت</span>
+        </div>
+    </div>
+     -->
+     <div class="social-icons">
+        <a href="#" title="Pinterest">
+            <svg viewBox="0 0 24 24"><path d="M12 2.04c-5.52 0-10 4.48-10 10 0 4.24 2.64 7.84 6.4 9.28-.08-.8-.16-2.04.08-2.92.24-.96 1.6-6.4 1.6-6.4s-.4-.8-.4-2c0-1.84 1.04-3.2 2.32-3.2 1.12 0 1.68.84 1.68 1.84 0 1.12-.72 2.72-1.12 4.24-.32 1.2.64 2.2 1.84 2.2 2.2 0 3.92-2.32 3.92-5.68 0-2.96-2.12-5.04-5.16-5.04-3.52 0-5.6 2.64-5.6 5.36 0 1.04.4 2.12.88 2.72.08.08.08.16.08.24-.08.32-.24 1.12-.32 1.28-.08.16-.16.2-.32.08-1.2-.56-1.96-2.28-1.96-3.68 0-3 2.16-5.76 6.24-5.76 3.28 0 5.84 2.36 5.84 5.52 0 3.24-2.04 5.88-4.88 5.88-1.2 0-2.36-.64-2.76-1.4l-.76 2.88c-.28 1.04-1.04 2.36-1.56 3.16C9.6 21.8 10.76 22 12 22c5.52 0 10-4.48 10-10s-4.48-9.96-10-9.96z"/></svg>
+        </a>
+        <a href="#" title="آپارات">
+            <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="64" cy="64" r="64" fill="#EE1D52"/>
+                <circle cx="64" cy="64" r="48" fill="#FFFFFF"/>
+                <circle cx="64" cy="64" r="40" fill="#EE1D52"/>
+                <circle cx="64" cy="64" r="8" fill="#FFFFFF"/>
+                <circle cx="64" cy="40" r="8" fill="#FFFFFF"/>
+                <circle cx="64" cy="88" r="8" fill="#FFFFFF"/>
+                <circle cx="88" cy="64" r="8" fill="#FFFFFF"/>
+                <circle cx="40" cy="64" r="8" fill="#FFFFFF"/>
+              </svg>
+            
+            
+        </a>
+        <a href="#" title="یوتیوب">
+            <svg viewBox="0 0 24 24"><path d="M23.5 6.2c-.3-1.3-1.3-2.3-2.6-2.6C18.3 3 12 3 12 3s-6.3 0-8.9.6c-1.3.3-2.3 1.3-2.6 2.6C0 8.8 0 12 0 12s0 3.2.6 5.8c.3 1.3 1.3 2.3 2.6 2.6C5.7 21 12 21 12 21s6.3 0 8.9-.6c1.3-.3 2.3-1.3 2.6-2.6.6-2.6.6-5.8.6-5.8s0-3.2-.6-5.8zM9.5 15.5v-7l6 3.5-6 3.5z"/></svg>
+        </a>
+        <a href="#" title="ایکس (توییتر)">
+            <svg viewBox="0 0 24 24">
+                <path d="M17.6 3H21l-7.5 8.6L22 21h-5.2l-5.1-6.2L6 21H2.4l8.1-9.2L2 3h5.3l4.6 5.6L17.6 3zM16 19h1.2L7.4 5H6.1L16 19z"/>
+            </svg>
+            
+        </a>
+        <a href="#" title="فیسبوک">
+            <svg viewBox="0 0 24 24">
+                <path d="M22 12a10 10 0 1 0-11 9.95V15h-3v-3h3v-2.3c0-3 1.7-4.7 4.3-4.7 1.2 0 2.5.2 2.5.2v3h-1.4c-1.4 0-1.8.9-1.8 1.8V12h3.1l-.5 3h-2.6v6.95A10 10 0 0 0 22 12z"/>
+            </svg>
+            
+        </a>
+            <a href="#" title="Pinterest">
+                <svg viewBox="0 0 24 24"><path d="M12 2.04c-5.52 0-10 4.48-10 10 0 4.24 2.64 7.84 6.4 9.28-.08-.8-.16-2.04.08-2.92.24-.96 1.6-6.4 1.6-6.4s-.4-.8-.4-2c0-1.84 1.04-3.2 2.32-3.2 1.12 0 1.68.84 1.68 1.84 0 1.12-.72 2.72-1.12 4.24-.32 1.2.64 2.2 1.84 2.2 2.2 0 3.92-2.32 3.92-5.68 0-2.96-2.12-5.04-5.16-5.04-3.52 0-5.6 2.64-5.6 5.36 0 1.04.4 2.12.88 2.72.08.08.08.16.08.24-.08.32-.24 1.12-.32 1.28-.08.16-.16.2-.32.08-1.2-.56-1.96-2.28-1.96-3.68 0-3 2.16-5.76 6.24-5.76 3.28 0 5.84 2.36 5.84 5.52 0 3.24-2.04 5.88-4.88 5.88-1.2 0-2.36-.64-2.76-1.4l-.76 2.88c-.28 1.04-1.04 2.36-1.56 3.16C9.6 21.8 10.76 22 12 22c5.52 0 10-4.48 10-10s-4.48-9.96-10-9.96z"/></svg>
+            </a>
+            <a href="#" title="تلگرام">
+                <svg viewBox="0 0 24 24"><path d="M9.5 14.3l-.4 4.7c.6 0 .9-.3 1.2-.7l2.1-2 4.3 3.2c.8.4 1.4.2 1.6-.7l3-14.3h-.1c.1 0-.1 0 0 0l-17.3 6.6c-1.3.5-1.3 1.3-.2 1.7l4.2 1.3 9.7-6.1-7.9 7.3z"/></svg>
+            </a>
+            <a href="#" title="لینکدین">
+                <svg viewBox="0 0 24 24"><path d="M22 22h-4v-7c0-1.5-.8-2.5-2.2-2.5s-2.3 1-2.3 2.5v7h-4V9h4v1.8c.6-.9 1.8-1.8 3.5-1.8 2.6 0 4.5 1.7 4.5 5v8zM2 22h4V9H2v13zM4 7c-1.3 0-2-.9-2-2s.7-2 2-2 2 .9 2 2-.7 2-2 2z"/></svg>
+            </a>
+            <a href="#" title="اینستاگرام">
+                <svg viewBox="0 0 24 24">
+                    <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9A3.5 3.5 0 0 0 20 16.5v-9A3.5 3.5 0 0 0 16.5 4h-9zm9.75 2a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                </svg>
+                
+            </a>
+    </div>
+</body>
+
+</html>
